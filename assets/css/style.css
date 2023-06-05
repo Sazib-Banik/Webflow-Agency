@@ -1,0 +1,84 @@
+/* ===== import fonts ===== */
+
+/* ===== import files ===== */
+@import url(bootstrap.min.css);
+@import url(font.all.min.css);
+/* ===== skeleton ===== */
+* {
+  box-sizing: border-box !important;
+  transition: ease all 0.5s;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 14px;
+  font-family: Poppins;
+  line-height: 1.80857;
+  font-weight: normal;
+  overflow-x: hidden;
+}
+a,
+.btn {
+  text-decoration: none !important;
+  display: inline-block;
+  outline: none !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0;
+  font-weight: normal;
+  padding: 0;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0;
+}
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+button:focus {
+  outline: none;
+}
+ul,
+li,
+ol {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+input:focus {
+  box-shadow: none !important;
+}
+:focus {
+  outline: 0;
+}
+/* ===== common-css_part start ===== */
+.layout_padding {
+  padding-top: 70px;
+  padding-bottom: 0px;
+}
+/* ===== common-css_part end ===== */
+
+/* ===== header_part start ===== */
+/* ===== header_part end ===== */
+/* ===== main_part start ===== */
+/* ===== main_part end ===== */
+/* ===== footer_part start ===== */
+/* ===== footer_part end ===== */
+/* ===== _part start ===== */
+/* ===== _part end ===== */
