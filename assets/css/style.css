@@ -33,9 +33,9 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-size: 14px;
+  font-size: 16px;
   font-family: var(--primary-font-family);
-  line-height: 1.80857;
+  line-height: 28px;
   font-weight: normal;
   overflow-x: hidden;
   font-style: normal;
@@ -103,6 +103,9 @@ input:focus {
 }
 .mb_30 {
   margin-bottom: 30px;
+}
+.mb_35 {
+  margin-bottom: 35px;
 }
 h1 {
   font-weight: 600;
@@ -208,3 +211,78 @@ p {
 /* ===================================================
           footer_part start 
  ===================================================== */
+#footer_part {
+  background-color: var(--primary-bg-color);
+  padding: 130px 0 0;
+}
+
+#footer_part .footer-left p {
+  margin-bottom: 90px;
+  color: rgba(255, 255, 255, 0.7);
+}
+#footer_part .footer-left span {
+  color: var(--secondary-font-color);
+}
+#footer_part .footer-left a {
+  color: rgba(40, 41, 56, 0.8);
+  font-weight: 400;
+}
+#footer_part .contact-details {
+  padding: 25px 35px;
+  background-color: var(--third-bg-color);
+}
+#footer_part .contact-details span {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--secondary-font-color);
+}
+#footer_part .footer-right h2 {
+  color: var(--white-color);
+}
+#footer_part .footer-right p {
+  color: rgba(255, 255, 255, 0.7);
+}
+#footer_part .footer-right .social-links ul {
+  display: inline-block;
+}
+#footer_part .footer-right .social-links ul li {
+  display: inline;
+  margin-right: 20px;
+}
+#footer_part .footer-right .social-links ul li a {
+  color: var(--white-color);
+}
+#footer_part .footer-right .social-links ul li a i {
+  font-size: 22px;
+}
+#footer_part .footer-right .social-links ul li a:hover i {
+  color: var(--primary-font-color);
+}
+/* ===================================================
+          copyright_part start 
+ ===================================================== */
+#copyright_part {
+  background-color: var(--white-color);
+  padding: 25px 0;
+}
+#copyright_part p {
+  margin-bottom: 0;
+  color: var(--secondary-font-color);
+  opacity: 1;
+}
+#copyright_part .footer_menu {
+  text-align: right;
+}
+#copyright_part .footer_menu ul li {
+  display: inline-block;
+  margin-left: 35px;
+}
+#copyright_part .footer_menu ul li a {
+  font-weight: 500;
+  color: var(--secondary-font-color);
+}
+#copyright_part .footer_menu ul li:hover a {
+  color: var(--primary-font-color);
+}

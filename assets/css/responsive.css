@@ -9,9 +9,26 @@
   #header_part .nav-link {
     margin-right: 20px;
   }
+  /* ===================================================
+          header_part start 
+ ===================================================== */
+  #copyright_part .footer_menu ul li {
+    margin-left: 30px;
+  }
+  #footer_part .contact-details {
+    padding: 15px 10px;
+  }
 }
 /* ===== medium devices (tablets, less than 992px) ===== */
 @media (max-width: 991px) {
+  h2 {
+    font-size: 38px;
+    line-height: 40px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 24px;
+  }
   /* ===================================================
           header_part start 
  ===================================================== */
@@ -35,10 +52,76 @@
   #header_part .theme_btn {
     margin-left: 0px;
   }
+  /* ===================================================
+          footer_part start 
+ ===================================================== */
+  #footer_part .contact-details a {
+    font-size: 14px;
+  }
+  /* ===================================================
+          copyright_part start 
+ ===================================================== */
+  #copyright_part .footer_menu ul li {
+    margin-left: 25px;
+  }
+  #copyright_part .footer_menu ul li a {
+    font-size: 14px;
+  }
 }
 /* ===== small devices (landscape phones, less than 768px) ===== */
 @media (max-width: 767px) {
+  /* ===================================================
+          footer_part start 
+ ===================================================== */
+  #footer_part {
+    padding-bottom: 25px;
+  }
+  #footer_part .footer-left p {
+    margin-bottom: 50px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #footer_part .footer-right h2 {
+    margin-top: 35px;
+  }
+  #footer_part .contact-details {
+    padding: 25px 35px;
+  }
+
+  /* ===================================================
+          copyright_part start 
+ ===================================================== */
+  #copyright_part .copy_text p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #copyright_part .footer_menu {
+    text-align: center;
+  }
 }
 /* ===== x-small devices (portrait phones, less than 576px) ===== */
 @media (max-width: 575px) {
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  /* ===================================================
+          footer_part start 
+ ===================================================== */
+  #footer_part {
+    padding: 80px 0 0;
+    padding-bottom: 25px;
+  }
+}
+/* ===== mobile device ===== */
+@media (max-width: 412px) {
+  .theme_btn {
+    padding: 7px 25px;
+    font-size: 16px;
+  }
+  /* ===================================================
+          footer_part start 
+ ===================================================== */
+  #copyright_part .footer_menu ul li:first-child {
+    margin-left: 0px;
+  }
 }
