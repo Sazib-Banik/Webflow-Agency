@@ -3,9 +3,38 @@
 }
 /* ===== large devices (desktops, less than 1200px) ===== */
 @media (max-width: 1199px) {
+  /* ===================================================
+          header_part start 
+ ===================================================== */
+  #header_part .nav-link {
+    margin-right: 20px;
+  }
 }
 /* ===== medium devices (tablets, less than 992px) ===== */
 @media (max-width: 991px) {
+  /* ===================================================
+          header_part start 
+ ===================================================== */
+  #header_part .navbar-toggler {
+    border: 1px solid var(--white-color);
+  }
+  #header_part .navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  #header_part .navbar-toggler i {
+    color: var(--white-color);
+  }
+  #header_part .nav-link {
+    margin-right: 20px;
+    transition: 0.4s;
+  }
+  #header_part .nav-link:hover {
+    margin-left: 5px;
+  }
+  #header_part .theme_btn {
+    margin-left: 0px;
+  }
 }
 /* ===== small devices (landscape phones, less than 768px) ===== */
 @media (max-width: 767px) {

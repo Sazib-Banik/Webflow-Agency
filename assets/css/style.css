@@ -1,9 +1,16 @@
-/* ===== import fonts ===== */
+/* ===================================================
+         google fonts 
+ ===================================================== */
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-/* ===== import files ===== */
+
+/* ===================================================
+          import files
+ ===================================================== */
 @import url(bootstrap.min.css);
 @import url(font.all.min.css);
-/* ===== skeleton ===== */
+/* ===================================================
+          Skeleton 
+ ===================================================== */
 :root {
   --primary-bg-color: #1c1e53;
   --secondary-bg-color: #f4f6fc;
@@ -17,6 +24,8 @@
   --secondary-font-family: "Manrope", sans-serif;
 }
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box !important;
   transition: ease all 0.5s;
 }
@@ -36,6 +45,7 @@ body {
 a,
 .btn {
   text-decoration: none !important;
+  color: var(--secondary-font-color);
   display: inline-block;
   outline: none !important;
   -webkit-transition: all 0.3s ease-in-out;
@@ -46,6 +56,7 @@ a,
 }
 a:hover {
   text-decoration: none;
+  color: var(--secondary-font-color);
 }
 h1,
 h2,
@@ -84,9 +95,11 @@ input:focus {
   outline: 0;
 }
 
-/* ===== common-css_part start ===== */
+/* ===================================================
+          common-css_part start 
+ ===================================================== */
 .layout_padding {
-  padding: 1240px 0px;
+  padding: 124px 0px;
 }
 .mb_30 {
   margin-bottom: 30px;
@@ -124,7 +137,7 @@ p {
   opacity: 0.7;
 }
 .theme_btn {
-  padding: 25px 55px;
+  padding: 10px 35px;
   border-radius: 41px;
   background-color: var(--third-bg-color);
   color: var(--btn-color);
@@ -134,13 +147,64 @@ p {
   line-height: 32px;
   font-family: var(--secondary-font-family);
 }
-/* ===== common-css_part end ===== */
+/* ===================================================
+          header_part start 
+ ===================================================== */
+#header_part {
+  background-color: var(--primary-bg-color);
+  padding: 15px 0;
+}
+#header_part .nav-link {
+  color: #bbbbcb;
+  margin-right: 29px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+#header_part .nav-link.active,
+#header_part .nav-link:hover {
+  color: #ffffff;
+}
+#header_part .theme_btn {
+  margin-left: 20px;
+  background-color: transparent;
+  border: 1px solid var(--third-font-color);
+  color: var(--white-color);
+}
+#header_part .theme_btn:hover {
+  background-color: var(--primary-font-color);
+  color: var(--secondary-font-color);
+}
+/* ===================================================
+          main_part start 
+ ===================================================== */
 
-/* ===== header_part start ===== */
-/* ===== header_part end ===== */
-/* ===== main_part start ===== */
-/* ===== main_part end ===== */
-/* ===== footer_part start ===== */
-/* ===== footer_part end ===== */
-/* ===== _part start ===== */
-/* ===== _part end ===== */
+/* ===================================================
+          _part start 
+ ===================================================== */
+
+/* ===================================================
+          _part start 
+ ===================================================== */
+
+/* ===================================================
+          _part start 
+ ===================================================== */
+
+/* ===================================================
+          _part start 
+ ===================================================== */
+
+/* ===================================================
+          _part start 
+ ===================================================== */
+
+/* ===================================================
+          _part start 
+ ===================================================== */
+
+/* ===================================================
+          footer_part start 
+ ===================================================== */
