@@ -137,18 +137,26 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
+  color: var(--white-color);
   opacity: 0.7;
 }
 .theme_btn {
   padding: 10px 35px;
   border-radius: 41px;
-  background-color: var(--third-bg-color);
-  color: var(--btn-color);
+  background-color: transparent;
+  color: var(--white-color);
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 32px;
   font-family: var(--secondary-font-family);
+}
+.theme_btn.active {
+  background-color: var(--third-bg-color);
+  color: var(--btn-color);
+}
+.theme_btn:hover {
+  background-color: #fde4a6;
 }
 /* ===================================================
           header_part start 
@@ -183,7 +191,13 @@ p {
 /* ===================================================
           main_part start 
  ===================================================== */
-
+#main_part {
+  background-color: var(--primary-bg-color);
+}
+#main_part .main_part_left h1,
+#main_part .main_part_left p {
+  margin-bottom: 40px;
+}
 /* ===================================================
           _part start 
  ===================================================== */
