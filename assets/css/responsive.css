@@ -41,9 +41,11 @@
     padding: 20% 25px 0px;
   }
   /* ===================================================
-          _part start 
+          features_part_part start 
  ===================================================== */
-
+  #features_part .features_item_box h6 {
+    height: 65px;
+  }
   /* ===================================================
           _part start 
  ===================================================== */
@@ -145,9 +147,14 @@
   }
 
   /* ===================================================
-          _part start 
+          features_part_part start 
  ===================================================== */
-
+  #features_part .features_item_box {
+    padding: 40px 30px;
+  }
+  #features_part .features_item_box h6 {
+    height: 65px;
+  }
   /* ===================================================
           _part start 
  ===================================================== */
@@ -215,6 +222,16 @@
     padding: 35% 50px 0px;
   }
   /* ===================================================
+          features_part start 
+ ===================================================== */
+  #features_part .features_item_box {
+    padding: 40px 25px;
+  }
+  #features_part .features_item_box h6 {
+    font-size: 20px;
+    height: 75px;
+  }
+  /* ===================================================
           footer_part start 
  ===================================================== */
   #footer_part {
@@ -275,7 +292,7 @@
           our_project_part start 
  ===================================================== */
   #our_project_part .our_project_right_part_item .img-overlay {
-    padding: 30% 50px 0px;
+    padding: 25% 50px 0px;
   }
 
   /* ===================================================
@@ -338,6 +355,12 @@
     margin-bottom: 15px;
   }
   /* ===================================================
+          features_part_part start 
+ ===================================================== */
+  #features_part .features_item_box {
+    padding: 50px 40px;
+  }
+  /* ===================================================
           _part start 
  ===================================================== */
 
@@ -357,6 +380,9 @@
   }
 }
 @media (max-width: 360px) {
+  h2 {
+    font-size: 22px;
+  }
   h6 {
     font-weight: 500;
     font-size: 20px;
@@ -369,5 +395,8 @@
     width: 100%;
     padding: 12% 45px 0px;
     display: none;
+  }
+  #our_project_part a {
+    font-size: 14px;
   }
 }

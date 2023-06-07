@@ -302,9 +302,22 @@ p {
   display: block;
 }
 /* ===================================================
-          _part start 
+          features_part start 
  ===================================================== */
-
+#features_part {
+  background-color: var(--secondary-bg-color);
+}
+#features_part .section_heading {
+  padding-bottom: 15px;
+}
+#features_part .features_item_box {
+  margin-top: 35px;
+  padding: 50px;
+  background-color: var(--white-color);
+}
+#features_part .features_item_box p {
+  color: var(--secondary-font-color);
+}
 /* ===================================================
           _part start 
  ===================================================== */
