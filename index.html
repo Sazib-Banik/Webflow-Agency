@@ -243,7 +243,7 @@
                 <div class="col-md-12">
                   <div class="our_project_right_part_item">
                     <img
-                      src="./assets/image/card3.png"
+                      src="./assets/image/Card3.png"
                       alt="project-two"
                       class="img-fluid w-100"
                     />
@@ -372,6 +372,76 @@
       </div>
     </section>
     <!-- ===== features_part end ===== -->
+    <!-- ===== client_say_part start ===== -->
+    <section id="client_say_part" class="layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="client_say_left">
+              <h3 class="mb_30">What our clients say about us</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="client_say_right">
+              <div class="owl-carousel owl-theme client_carousel">
+                <div class="item">
+                  <h5 class="mb_35">
+                    "The best agency we’ve worked with so far. They understand
+                    our product and are able to add new features with a great
+                    focus."
+                  </h5>
+                  <div class="client_about">
+                    <div class="client_img">
+                      <img src="./assets/image/client.png" alt="client-image" />
+                    </div>
+                    <div class="client_details">
+                      <p>Jenny Wilson</p>
+                      <span>Vice President</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <h5 class="mb_35">
+                    "The best agency we’ve worked with so far. They understand
+                    our product and are able to add new features with a great
+                    focus."
+                  </h5>
+                  <div class="client_about">
+                    <div class="client_img">
+                      <img src="./assets/image/client.png" alt="client-image" />
+                    </div>
+                    <div class="client_details">
+                      <p>Jenny Wilson</p>
+                      <span>Vice President</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <h5 class="mb_35">
+                    "The best agency we’ve worked with so far. They understand
+                    our product and are able to add new features with a great
+                    focus."
+                  </h5>
+                  <div class="client_about">
+                    <div class="client_img">
+                      <img src="./assets/image/client.png" alt="client-image" />
+                    </div>
+                    <div class="client_details">
+                      <p>Jenny Wilson</p>
+                      <span>Vice President</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== client_say_part end ===== -->
     <!-- ===== footer_part start ===== -->
     <footer id="footer_part">
       <div class="container">
@@ -459,8 +529,39 @@
     <script src="./assets/js/jquery.min.js"></script>
     <!-- ===== bootstrap js link ===== -->
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- ===== owl-carousel js link ===== -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
     <!-- ===== script js link ===== -->
     <script src="./assets/js/script.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".client_carousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          dots: false,
+          navText: [
+            "<div class='nav-button owl-prev'><i class='fa-solid fa-arrow-left'></i></div>",
+            "<div class='nav-button owl-next'><i class='fa-solid fa-arrow-right'></i></div>",
+          ],
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 1,
+              nav: true,
+            },
+            600: {
+              items: 1,
+              nav: true,
+            },
+            1000: {
+              items: 1,
+              nav: true,
+              loop: true,
+            },
+          },
+        });
+      });
+    </script>
   </body>
 </html>
 <!-- ===== _part start ===== -->
